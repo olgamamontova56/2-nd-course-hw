@@ -58,10 +58,10 @@ body {
         width: 234px;
         height: 48px;
         border: none;
-        cursor: pointer;
         transition: all 1s;
         &:hover {
             background: #EB443F;
+            cursor: url(/img/clarity_cursor-hand-line.png), pointer;
         }
     }
     
@@ -88,6 +88,7 @@ body {
         padding-top: 236px;
         &:hover {
             border: 3px solid #44D2FF;;
+            cursor: url(/img/clarity_cursor-hand-line.png), pointer;
         }
     &-1 {
         background: url(/img/game-1.jpg);
