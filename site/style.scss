@@ -20,7 +20,7 @@ body {
 
 .header { 
     height: 1024px;
-    background-image: url(/img/header-img.jpg);
+    background-image: url(/site/img/header-img.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -61,7 +61,7 @@ body {
         transition: all 1s;
         &:hover {
             background: #EB443F;
-            cursor: url(/img/clarity_cursor-hand-line.png), pointer;
+            cursor: url(/site/img/clarity_cursor-hand-line.png), pointer;
         }
     }
     
@@ -88,26 +88,24 @@ body {
         padding-top: 236px;
         &:hover {
             border: 3px solid #44D2FF;;
-            cursor: url(/img/clarity_cursor-hand-line.png), pointer;
+            cursor: url(/site/img/clarity_cursor-hand-line.png), pointer;
         }
     &-1 {
-        background: url(/img/game-1.jpg);
+        background: url(/site/img/game-1.jpg);
         background-position: center;
 
     }
     &-2 {
-        background: url(/img/game-2.jpg);
+        background: url(/site/img/game-2.jpg);
         background-position: center;
 
     }
     &-3 {
-        background: url(/img/game-3.jpg);
+        background: url(/site/img/game-3.jpg);
         background-position: center;
 
     }
 
-
     }
-
 
 }

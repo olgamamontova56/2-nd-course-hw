@@ -23,7 +23,7 @@ body {
 
 .header {
   height: 1024px;
-  background-image: url(/img/header-img.jpg);
+  background-image: url(/site/img/header-img.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -62,7 +62,7 @@ body {
 }
 .header__button:hover {
   background: #EB443F;
-  cursor: url(/img/clarity_cursor-hand-line.png), pointer;
+  cursor: url(/site/img/clarity_cursor-hand-line.png), pointer;
 }
 
 .game {
@@ -87,17 +87,17 @@ body {
 }
 .game__item:hover {
   border: 3px solid #44D2FF;
-  cursor: url(/img/clarity_cursor-hand-line.png), pointer;
+  cursor: url(/site/img/clarity_cursor-hand-line.png), pointer;
 }
 .game__item-1 {
-  background: url(/img/game-1.jpg);
+  background: url(/site/img/game-1.jpg);
   background-position: center;
 }
 .game__item-2 {
-  background: url(/img/game-2.jpg);
+  background: url(/site/img/game-2.jpg);
   background-position: center;
 }
 .game__item-3 {
-  background: url(/img/game-3.jpg);
+  background: url(/site/img/game-3.jpg);
   background-position: center;
 }/*# sourceMappingURL=style.css.map */
