@@ -2,12 +2,15 @@
 let a = 10;
 alert (a);
 
+let a = 20;
+alert (a);
+
 // Задание 2
-let year = 2007;
+const year = 2007;
 alert (year);
 
 // Задание 3
-let nameJavaScript = 'Brendan Eich';
+const nameJavaScript = 'Brendan Eich';
 alert (nameJavaScript);
 
 // Задание 4
@@ -30,12 +33,12 @@ alert (a%b);
 
 // Задание 7
 let num = 1;
-alert (+5+num);
-alert (-3-num);
-alert (*7*num);
-alert (/3/num);
-alert (+1+num);
-alert (-1-num)
+alert (num+=5);
+alert (num-=3);
+alert (num*=7);
+alert (num/=3);
+alert (num+=1);
+alert (num-=1)
 
 
 // Задание 8
@@ -45,7 +48,7 @@ alert (age);
 // Задание 9
 const user = {
     name: 'Olga',
-    age: '30',
+    age: 30,
     isAdmin: true
 }
 
@@ -54,16 +57,16 @@ const user = {
 user.cityOfResidence = 'Novokuznetsk';
 
 // Задание 9.2
-user.age ='34';
+user.age =34;
 
 // Задание 9.3
-delete.cityOfResidence;  
+delete cityOfResidence;  
 
 // Задание 9.4
 let info = prompt("Какую информацию хотите узнать о пользователе?" );
-console.log (user [info]);
+console.log (user[info]);
 alert (info);
 
 // Задание 10
-let name = (prompt (`ваше имя`));
+let name = prompt (`ваше имя`);
 alert (`привет ${name} !`)
