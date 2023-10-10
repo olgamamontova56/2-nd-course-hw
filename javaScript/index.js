@@ -2,7 +2,7 @@
 let a = 10;
 alert (a);
 
-let a = 20;
+a = 20;
 alert (a);
 
 // Задание 2
@@ -37,8 +37,8 @@ alert (num+=5);
 alert (num-=3);
 alert (num*=7);
 alert (num/=3);
-alert (num+=1);
-alert (num-=1)
+alert (num+1);
+alert (num-1)
 
 
 // Задание 8
