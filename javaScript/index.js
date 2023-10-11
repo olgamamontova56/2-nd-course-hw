@@ -37,8 +37,8 @@ alert (num+=5);
 alert (num-=3);
 alert (num*=7);
 alert (num/=3);
-alert (num+1);
-alert (num-1)
+alert (num++);
+alert (num--)
 
 
 // Задание 8
