@@ -52,15 +52,25 @@
 
 
 
-// Задание 7
-let number= Number (prompt ('Пожалуйста, введите любое число'));
-if (Number.isNaN (+number)) {
-  alert ('вы ввели число')
-} else { 
-  if (number % 2 === 0) {
-    alert ('четно')
-  } else {
-    alert ('нечетно')
-  }
+// // Задание 7
+// let number= Number (prompt ('Пожалуйста, введите любое число'));
+// if (Number.isNaN (+number)) {
+//   alert ('вы ввели число')
+// } else { 
+//   if (number % 2 === 0) {
+//     alert ('четно')
+//   } else {
+//     alert ('нечетно')
+//   }
+// }
+ 
+// Задание 8
+let clientOS = Number (prompt ('введите 0 - если iOS или 1 - если Android'));
+if (clientOS === 0) {
+  console.log( 'Установите версию приложения для iOS по ссылке');
+} else if ( clientOS === 1) {
+  console.log( 'Установите версию приложения для Android по ссылке');
+}  else { 
+  console.log ('неверное значение')
 }
 
