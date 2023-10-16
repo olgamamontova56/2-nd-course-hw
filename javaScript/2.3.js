@@ -75,6 +75,7 @@ if (clientOS === 0) {
 }
 
 // Задание 9
+let clientOS = Number (prompt ('введите 0 - если iOS или 1 - если Android'));
 let clientDeviceYear = Number (prompt ('введите год выпуска телефона'));
 if (clientOS === 0) {
   if (clientDeviceYear >= 2015) {
