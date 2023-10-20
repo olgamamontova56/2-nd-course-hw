@@ -21,9 +21,10 @@ console.log( number (40));
 // Задание 3
 // задание3.1
 function printSquare (a) {
-    return a ** 2; 
+        console.log(a**2);
 }
-console.log( printSquare (5));
+
+printSquare (12);
 
 // задание3.2
 function returnSquare (a) { 
@@ -72,25 +73,26 @@ console.log(cubeNumber ());
   
 // Задание 7
 
+function getArea() {
+    return Math.PI * this.radius ** 2;
+}
+
+function getPerimeter() {
+    return 2 * Math.PI * this.radius;
+}
+
 let circle1 = { 
     radius: 7, 
-    getArea: function() {
-        return Math.PI * this.radius ** 2;
-    },
-    getPerimeter: function() {
-        return 2 * Math.PI * this.radius;
-    }
+    getArea: getArea,
+    getPerimeter: getPerimeter
 }
 
 let circle2 = { 
     radius: 5, 
-    getArea: function() {
-        return Math.PI * this.radius ** 2;
-    },
-    getPerimeter: function() {
-        return 2 * Math.PI * this.radius;
-    }
+    getArea: getArea,
+    getPerimeter: getPerimeter
 }
+
 console.log(circle1.getArea());
 console.log(circle1.getPerimeter());
 console.log(circle2.getArea());
