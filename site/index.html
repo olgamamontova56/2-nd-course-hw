@@ -1,28 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./asest/style/style.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
+    <script src="./index.js"></script>
+    
     <div class="header center">
-        <div class="header__box">
-            <h1 class="header__title">Добро пожаловать <br> на мой сайт!</h1>
-            <p class="header__text">
-                Вам предстоит пройти несколько увлекательных <br> игр. Если готов нажимай <b>поехали</b> и <b>приступай</b>
-            </p>
-            <a  href="#"> <button class="header__button">Поехали!</button></a>
-        </div>
+      <div class="header__box">
+        <h1 class="header__title">
+          Добро пожаловать <br />
+          на мой сайт!
+        </h1>
+        <p class="header__text">
+          Вам предстоит пройти несколько увлекательных <br />
+          игр. Если готов нажимай <b>поехали</b> и <b>приступай</b>
+        </p>
+        <a href="#"> <button class="header__button">Поехали!</button></a>
+      </div>
     </div>
 
     <div class="game center">
-           <a class="game__item game__item-1" href="#!">Игра-1</a>
-           <a class="game__item game__item-2" href="#!">Игра-2</a>
-           <a class="game__item game__item-3" href="#!">Игра-3</a>
+      <a onclick="firstPlayGame()" class="game__item game__item-1" href="#!">Игра-1</a>
+      <a class="game__item game__item-2" href="#!">Игра-2</a>
+      <a class="game__item game__item-3" href="#!">Игра-3</a>
     </div>
-</body>
+
+    <div class="season center">
+      <div class="season__box">
+        <div class="season__content">
+          <h1 class="season__heading">Времена года!</h1>
+          <p class="season__text">
+            Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы
+            узнаете к какому времени года он относится
+          </p>
+          <button onclick="firstPlayGame()" class="season__button">Играть</button>
+        </div>
+
+        <img class="season__img" src="asest/img/season game_night_8h8m 1.svg" alt="" />
+      </div>
+    </div>
+
+    
+  </body>
 </html>

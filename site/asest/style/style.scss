@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.header {
+  height: 1024px;
+  background-image: url(.././img/header-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  &__title {
+    color: #fff;
+    font-size: 64px;
+    font-weight: 700;
+    padding-bottom: 32px;
+    padding-top: 217px;
+  }
+
+  &__text {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+    padding-bottom: 44px;
+    & b {
+      font-weight: 700px;
+    }
+  }
+
+  &__button {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #9c0332;
+    border-radius: 30px;
+    text-align: center;
+    width: 234px;
+    height: 48px;
+    border: none;
+    transition: all 1s;
+    &:hover {
+      background: #eb443f;
+      cursor: url(.././img/clarity_cursor-hand-line.png), pointer;
+    }
+  }
+}
+
+.game {
+  padding-top: 128px;
+  padding-bottom: 128px;
+  background: #000915;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 32px;
+
+  &__item {
+    width: 378px;
+    height: 300px;
+    border-radius: 18px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    padding-left: 32px;
+    padding-top: 236px;
+    box-shadow: 0px 5px 17px rgb(66, 8, 172);
+    &:hover {
+      border: 3px solid #44d2ff;
+      cursor: url(.././img/clarity_cursor-hand-line.png), pointer;
+      
+    }
+    &-1 {
+      background: url(.././img/game-1.jpg);
+      background-position: center;
+    }
+    &-2 {
+      background: url(.././img/game-2.jpg);
+      background-position: center;
+    }
+    &-3 {
+      background: url(.././img/game-3.jpg);
+      background-position: center;
+    }
+  }
+}
+
+.season {
+  padding-top: 233px;
+  padding-bottom: 233px;
+  background: #000915;
+
+  &__box {
+    display: flex;
+    gap: 135px;
+    align-items: center;
+  }
+  &__content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    flex-direction: column;
+  }
+  &__heading {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+  }
+  &__text {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+  }
+
+  &__button {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #9c0332;
+    border-radius: 30px;
+    text-align: center;
+    width: 234px;
+    height: 48px;
+    border: none;
+    transition: all 1s;
+    &:hover {
+      background: #eb443f;
+      cursor: url(.././img/clarity_cursor-hand-line.png), pointer;
+    }
+  }
+  &__img {
+    width: 485px;
+    height: 333px;
+  }
+}
+
+@import "mob";

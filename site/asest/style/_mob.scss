@@ -1,0 +1,55 @@
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .header {
+    padding-top: 238px;
+    height: 735px;
+    
+
+    &__title {
+      font-size: 32px;
+    }
+    &__text {
+      font-size: 14px;
+      line-height: 22px;
+    }
+    &__box {
+      text-align: center;
+    }
+  }
+
+  .season {
+    padding-top: 51px;
+    padding-bottom: 51px;
+    &__box {
+      flex-direction: column;
+    }
+    &__content {
+        align-items: center;
+    }
+    &__heading {
+      font-size: 32px;
+    }
+    &__text {
+      font-size: 14px;
+      text-align: center;
+      width: 305px;
+      line-height: 22px;
+    }
+
+    &__img {
+      width: 344px;
+      height: 236px;
+    }
+  }
+}
+@media(max-width: 720px) {
+    .header {
+        background: url(.././img/mob_heder.png);
+        background-position: center;
+        background-size: cover;
+    }
+}
