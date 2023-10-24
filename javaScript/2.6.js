@@ -1,12 +1,10 @@
 // // Задание 1 
 
-// const num = [1, 5, 4, 10, 0, 3];
-// for (let item of num) {
-//   if (item === 10) {
-//     console.log(item);
-//     break;
-//   }
-//   console.log(item);
+// const numbs = [1, 5, 4, 10, 0, 3];
+// for (let i = 0; i < numbs.length; i++) {
+//   if ( numbs[i] == 10)
+//   break;
+// console.log(numbs [i]);
 // }
 
 
@@ -36,25 +34,17 @@
 
 // // Задание 5
 // const num = [ 1, 1, 1]
-// num [num.length ] = 2;
-// console.log(num);
-// num [num.length ] = 2;
-// num [num.length ] = 2;
+// num.push( 2, 2, 2);
 // console.log(num);
 
 
 // // Задание 6
-// const num = [9, 8, 7, 'a', 6, 5];
-// let number = num.sort();
-// console.log( number);
-
-// let index = num.indexOf ('a');
-// num.splice (index, 5);
+// let num = [9, 8, 7, 'a', 6, 5];
+// num.sort().pop()
 // console.log(num);
 
-
 // // Задание 7 
-// let number = Number( prompt ('Ведите число'));
+// let number = +prompt ('Ведите число');
 // let num = [9, 8, 7, 6, 5];
 
 // if (num.includes(number)) {
@@ -65,10 +55,8 @@
 
 
 // // // Задание 8 
-// let row = ['abcdef'];
-// let arrRow =  row.split('').reverse().join('');
-// console.log(`'${arrStr}'`);
-
+// let row = 'abcdef';
+// console.log([...row].reverse().join('') );
 
 // // Задание 9
 // const arr= [
@@ -87,12 +75,14 @@
 
 // // Задание 11
 // const number = [ 2, 4, 5, 1];
-// let result = number.map (el => console.log(el ** 2));
+// let result = number.map (el => el ** 2);
+// console.log(result);
 
 
 // Задание 12
 // const getLengthWords = ['слово', '', 'слог', 'длинное предложение', 'буква'];
-// let result = getLengthWords.map (el => console.log(el.length));
+// let result = getLengthWords.map (el => el.length);
+// console.log(result);
 
 
 // Задание 13
@@ -100,6 +90,16 @@
 // let result = filterPositive.filter (i => i < 0);
 // console.log(result);
 
-// const filterPositive1  = [-25, 25, 0, -1000, -2]; 
-// let result1 = filterPositive1.filter (i => i < 0);
-// console.log(result1); 
+// 2 вариант
+// function negativ (number) {
+//   const result = [];
+//   for( let i = 0; i < number.length; i++) {
+//     if(number [i] < 0 ) {
+//       result.push(number [i]);
+//     }  
+//   }
+// return result;
+
+// }
+// const filterPositive  = [-25, 25, 0, -1000, -2]; 
+// console.log(negativ(filterPositive));
