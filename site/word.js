@@ -8,7 +8,7 @@ function rememberTheWords() {
     "Апельсин",
     "Мандарин",
   ];
-  words = word.sort(() => Math.random() - 0.5);
+  let  words = word.sort(() => Math.random() - 0.5);
 
   alert (words);
 
